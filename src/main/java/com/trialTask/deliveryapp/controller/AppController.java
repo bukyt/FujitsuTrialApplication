@@ -63,7 +63,7 @@ public class AppController {
             session.setAttribute("sessionFee",Double.toString(feeResponse.getFee()));
             return "submit.html";
         }catch(WeatherException e){
-            return "error.html";
+            return "weathererror.html";
         }
     }
 
