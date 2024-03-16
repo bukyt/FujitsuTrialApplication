@@ -19,3 +19,4 @@ PRIMARY KEY ID
 - The importing of data from https://www.ilmateenistus.ee/ilma_andmed/xml/observations.php is handled by QueryExecutionTask.java, it runs every hour on the 15th minute scheduled with cron
 - Data is imported from the database with DataManagerDAO, it creates a connection with the parameters "jdbc:h2:~/Fujitsu", "user", "password"
 - The project can be run from the command line with gradlew bootRun
+- Backup.zip contains the backup of the Database I created for this project
